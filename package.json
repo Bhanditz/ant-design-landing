@@ -23,7 +23,8 @@
     "rc-scroll-anim": "^2.5.0",
     "rc-texty": "^0.2.0",
     "rc-tween-one": "^2.2.0",
-    "react-document-title": "^2.0.1"
+    "react-document-title": "^2.0.1",
+    "snyk": "^1.189.0"
   },
   "devDependencies": {
     "antd-tools": "^5.1.5",
@@ -98,6 +99,9 @@
     "lint:es": "eslint --fix --ext '.js,.jsx' site",
     "lint:style": "stylelint \"site/**/*.less\" --syntax less",
     "lint:demo": "cross-env RUN_ENV=DEMO eslint ./ --ext '.md' -c ./.eslintrc.js",
-    "test": "npm run lint"
-  }
+    "test": "npm run lint",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
+  },
+  "snyk": true
 }

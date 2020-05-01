@@ -1,0 +1,36 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.14.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - antd > lodash:
+        patched: '2020-05-01T01:27:47.540Z'
+    - antd > rc-form > lodash:
+        patched: '2020-05-01T01:27:47.540Z'
+    - antd > rc-steps > lodash:
+        patched: '2020-05-01T01:27:47.540Z'
+    - antd > rc-table > lodash:
+        patched: '2020-05-01T01:27:47.540Z'
+    - antd > rc-tabs > lodash:
+        patched: '2020-05-01T01:27:47.540Z'
+    - rc-editor-list > antd > lodash:
+        patched: '2020-05-01T01:27:47.540Z'
+    - leancloud-storage > leancloud-realtime > lodash:
+        patched: '2020-05-01T01:27:47.540Z'
+    - rc-editor-list > react-color > lodash:
+        patched: '2020-05-01T01:27:47.540Z'
+    - antd > rc-editor-mention > rc-editor-core > lodash:
+        patched: '2020-05-01T01:27:47.540Z'
+    - rc-editor-list > antd > rc-form > lodash:
+        patched: '2020-05-01T01:27:47.540Z'
+    - rc-editor-list > antd > rc-steps > lodash:
+        patched: '2020-05-01T01:27:47.540Z'
+    - rc-editor-list > antd > rc-table > lodash:
+        patched: '2020-05-01T01:27:47.540Z'
+    - rc-editor-list > antd > rc-tabs > lodash:
+        patched: '2020-05-01T01:27:47.540Z'
+    - rc-editor-list > react-color > reactcss > lodash:
+        patched: '2020-05-01T01:27:47.540Z'
+    - rc-editor-list > antd > rc-editor-mention > rc-editor-core > lodash:
+        patched: '2020-05-01T01:27:47.540Z'
